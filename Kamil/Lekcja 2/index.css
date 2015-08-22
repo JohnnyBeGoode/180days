@@ -1,0 +1,40 @@
+body {
+    background-color: gray;
+    font-family: Arial;
+    color: #FFF;
+    word-spacing: 5px;
+}
+
+main {
+    margin: 0 auto;
+    width: 960px;
+    text-align: center;
+}
+
+header {
+    margin-bottom: 50px;
+}
+
+header h1 {
+    font-size: 50px
+}
+
+header p {
+    line-height: 155%;
+}
+
+header + section a {
+    display: inline-block;
+}
+
+header + section img {
+    margin: 0 25px;
+}
+
+header + section + section {
+    margin: 20px 0;
+}
+
+header + section + section a {
+    color: orange;
+}
