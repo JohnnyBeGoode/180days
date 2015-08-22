@@ -1,0 +1,1 @@
+Chesz w dziub?
