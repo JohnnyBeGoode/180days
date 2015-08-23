@@ -1,0 +1,92 @@
+body {
+    background-color: gray;
+}
+
+main {
+    margin: 0 auto;
+    width: 960px;
+    font-family: Arial;
+}
+
+header h1 {
+    color: darkslategray;
+    font-size: 38px;
+    text-align: center;
+    text-shadow: -1px -1px 1px #FFF;
+}
+
+header + section {
+    background-color: beige;
+    padding: 50px;
+    box-shadow: 0 0 2px 1px #000
+}
+
+header + section > div:first-child,
+header + section > div:nth-child(2) {
+    float: left;
+}
+
+header + section > div:last-child {
+    clear: both;
+}
+
+header + section > div:first-child {
+    width: 19%;
+}
+
+header + section > div:nth-child(2) {
+    width: 80%;
+}
+
+header + section > div:first-child > div {
+    width: 50px;
+    height: 50px;
+    border: 1px solid gray;
+    margin-bottom: 20px;
+}
+
+header + section > div:first-child > div:first-child {
+    background-color: red;
+}
+
+header + section > div:first-child > div:nth-child(2) {
+    background-color: yellow;
+}
+
+header + section > div:first-child > div:nth-child(3) {
+    background-color: blue;
+}
+
+header + section > div:first-child > div:last-child {
+    background-color: #FFF;
+}
+
+header + section > div:nth-child(2) {
+    border: 1px solid black;
+}
+
+header + section > div:nth-child(2) > div {
+    width: 25%;
+    height: 100px;
+    display:inline-block;
+    float: left;
+    border: 8px solid black;
+    box-sizing: border-box;
+    background-color: #FFF;
+}
+
+header + section > div:nth-child(2) > div.bt {
+    border-top: 0;
+}
+
+header + section > div:nth-child(2) > div.bl {
+    border-left: 0;
+}
+
+header + section > div:nth-child(2) > div.br {
+    border-right: 0;
+}
+
+header + section > div:nth-child(2) > div.bb {
+    border-bottom: 0;
+}
