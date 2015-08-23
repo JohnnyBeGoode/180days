@@ -1,9 +1,17 @@
 var box = document.getElementsByClassName('box');
-var color = " ";
+var netBox = document.getElementsByClassName('change');
+var color = "";
 
-	for (var i = 0; i < 4; i++) {	
-		box[i].addEventListener('click', function() {
-			box[i].style.backgroundColor = color
-	});
+	for (var i = 0; i < box.length; i++) {
+		box[i].addEventListener( 'click', function() {
+			color =	window.getComputedStyle(this,null).getPropertyValue('background-color')
+			console.log(color)
+		})
 	}
+
+	 for (var i = 0; i < netBox.length; i++) {
+	 	netBox[i].addEventListener( 'click', function() {
+			this.style.backgroundColor = color;
+		})
+	 }
 
