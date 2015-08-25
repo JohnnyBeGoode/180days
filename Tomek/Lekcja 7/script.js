@@ -8,7 +8,6 @@ function randomColor() {
 
 for (var i = 0; i < divHTML.length; i++) {
 	divHTML[i].addEventListener( 'mouseover', function() {
-		console.log(this);
 		this.style.backgroundColor = randomColor();
 	})
 }
