@@ -17,17 +17,20 @@ for (var i = 0; i < webDays.length; i++){
 	}
 }
 
+
+
+
 function realTime() {
+// Dlaczego ta zmianna musi byc w funckji ??????
 	var date = new Date(); // Dlaczego ta zmienna musi byc w funkcji ? ? ? 
-	var time = date.getHours() + ':' + date.getMinutes() + ':' + date.getSeconds(); // Dlaczego ta zmianna musi byc w funckji ??????
+	var time = date.getHours() + ':' + date.getMinutes() + ':' + date.getSeconds(); 
 	var hourHTML = document.getElementById('hour');
 	hourHTML.innerHTML = time;
-	refresh();
 }
 
 
 function refresh() {
-	setTimeout('realTime()', 1000);  // Dlaczego ta funckja musi byc w ciapkach????
+	setTimeout(realTime(), 1000);  // Dlaczego ta funckja musi byc w ciapkach????
 }
 
 
