@@ -1,0 +1,20 @@
+body {
+    background-color: #000;
+}
+
+.wrapper {
+    background-color: gray;
+    margin: 0 auto;
+    width: 960px;
+    height: 960px;
+}
+
+.box {
+    width: 10%;
+    float: left;
+    height: 96px;
+}
+
+.box:hover {
+    box-shadow: 0 0 6px #FFF;
+}
