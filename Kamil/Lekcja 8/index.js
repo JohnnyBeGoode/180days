@@ -11,6 +11,7 @@ var tag = '';
 
 for ( i=0; i < boxShadowList.length; i++ ) {
     boxShadowList[i].addEventListener( 'click', function(){
+        console.log(boxShadowList[i]);
         dropShadow(this, 'box');
     });
 }

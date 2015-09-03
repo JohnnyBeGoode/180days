@@ -6,6 +6,8 @@ var day = weekday[date.getDay()];
 var list = document.getElementById( 'day' );
 var msg = document.getElementById( 'message' );
 
+
+
 switch(day) {
     case 'Sunday':
         list.children[0].className = "active";
