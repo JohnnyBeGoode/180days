@@ -5,7 +5,6 @@ var color = "";
 	for (var i = 0; i < box.length; i++) {
 		box[i].addEventListener( 'click', function() {
 			color =	window.getComputedStyle(this,null).getPropertyValue('background-color')
-			console.log(color)
 		})
 	}
 
@@ -15,3 +14,5 @@ var color = "";
 		})
 	 }
 
+
+console.log(color);

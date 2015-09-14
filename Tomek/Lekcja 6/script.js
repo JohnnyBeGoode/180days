@@ -26,11 +26,12 @@ function realTime() {
 	var time = date.getHours() + ':' + date.getMinutes() + ':' + date.getSeconds(); 
 	var hourHTML = document.getElementById('hour');
 	hourHTML.innerHTML = time;
+	refresh();
 }
 
 
 function refresh() {
-	setTimeout(realTime(), 1000);  // Dlaczego ta funckja musi byc w ciapkach????
+	setTimeout('realTime()', 1000);  // Dlaczego ta funckja musi byc w ciapkach????
 }
 
 
