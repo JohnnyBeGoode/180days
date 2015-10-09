@@ -9,9 +9,11 @@ function randomColor() {
 
 
 document.addEventListener('mousemove', function() {
-	var x = event.clientX;
-	var y = event.clientY;
-	var coor = "Coordinates: " + x +';' + y;
+	var coor = {
+		x: event.clientX,
+		y: event.clientY
+	}
+	var coor = "Coordinates: " + coor.x +';' + coor.y;
 	span.innerHTML = coor;
 
 });
