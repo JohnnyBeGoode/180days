@@ -1,6 +1,6 @@
-body {
-	width: 1200px;
-	margin: 100px auto;
+.container {
+	width: 20000px;
+	height: 150px;
 }
 
 div > div {
