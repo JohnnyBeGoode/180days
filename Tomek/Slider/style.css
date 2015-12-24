@@ -1,11 +1,11 @@
-.container {
-	position: absolute;
-	left: -218px;
+div {
+	position: relative;
+	left: -168px;
 	width: 20000px;
 	height: 150px;
 }
 
-div > div {
+body > div > div {
 	width: 100px;
 	height: 100px;
 	background-color: orange;

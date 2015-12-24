@@ -1,5 +1,5 @@
-var container = document.querySelector('.container');
-var images = document.querySelectorAll('div.container > div');
+var container = document.querySelector('body > div');
+var images = document.querySelectorAll('body > div > div');
 
 // Convert NodeList to Array
 var array = Array.prototype.slice.call(images);
