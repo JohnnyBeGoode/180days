@@ -21,6 +21,12 @@
 	justify-content: center;
 
 }
+.hit {
+	background: url("ship.png") no-repeat center center;
+}
+.miss {
+	background: url("miss.png") no-repeat center center;
+}
 .box > div {
 	width: 80px;
 	height: 35px;
@@ -52,6 +58,11 @@ input:nth-child(2) {
 input:nth-child(2):active {
 	background-color: #ba1047;
 	border: 0;
+}
+span{
+	margin: 20px;
+	float: right;
+	color: white;
 }
 /*span {
 	font-family: 'Rockwell Extra Bold', 'Rockwell Bold', monospace;

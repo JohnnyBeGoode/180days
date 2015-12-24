@@ -39,12 +39,10 @@ function match(){
 		for (var i = 0; i < boxs.length; i++) {
 			if( position === table[i]){
 				if (position === ship[0] || position === ship[1] || position === ship[2]){
-					boxs[i].appendChild(newDiv);
-					newDiv.style.backgroundImage = 'url("ship.png")';
+					boxs[i].className += ' hit';
 				}
 				else {
-					boxs[i].appendChild(newDiv);
-					newDiv.style.backgroundImage = 'url("miss.png")';
+					boxs[i].className += ' miss';
 				}
 			}	
 		}
@@ -59,5 +57,4 @@ function createMatrix(){
 	}	
 }
 createMatrix();
-
 
